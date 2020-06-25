@@ -57,8 +57,3 @@ void	my_ptab(int i, va_list(ap))
 	tab[12] = NULL;
 	(*tab[i])(ap);
 }
-int	main()
-{
-	my_printf("%d\n aidphéiapodhaeifdai&é", 123456);
-	return(0);
-}

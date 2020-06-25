@@ -2,7 +2,7 @@
 ## EPITECH PROJECT, 2018
 ## Makefile
 ## File description:
-## make re pour les intimes
+## make re 
 ##
 
 SRC	=	flags/flags.c		\
@@ -18,13 +18,7 @@ NAME	=	libmy.a
 
 $(NAME):	$(OBJ)
 		@ar rc $(NAME) $(OBJ)
-		@tput setaf 4
-		@echo "Compilation terminée !"
-		@tput sgr0
 superclean:
-		@tput setaf 1
-		@echo "Nettoyage en cours, veuillez patienter.."
-		@tput sgr0
 		@rm -f *~
 		@rm -f *#
 		@rm -f second/*~
@@ -40,10 +34,6 @@ superclean:
 		@rm -f check/*#
 		@rm -f print/*~
 		@rm -f print/*#
-		@tput setaf 2
-		@echo "Le nettoyage est une réussite !"
-		@tput sgr0
-
 clean:
 		@rm -f $(OBJ)
 

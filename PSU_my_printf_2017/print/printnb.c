@@ -2,7 +2,7 @@
 ** EPITECH PROJECT, 2018
 ** my_printnb.c
 ** File description:
-** printer sur GMOD
+** printer
 */
 
 #include "../include/my.h"
